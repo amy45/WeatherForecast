@@ -16,9 +16,14 @@ define(function () {
     	    .then(function(response) {
     	        $scope.myWelcome = response.data.list;
     	        $scope.city = response.data.city.name;
+    	        if(true){
+    	        	
+    	        }
+    	        else{
     	        $scope.data=$scope.myWelcome;
     	      //  alert($scope.myWelcome);
-    	    });
+    	        }
+    	        });
 
     	 $scope.numberOfPages=function(int fix1,int fix2){
     	        return Math.ceil($scope.myWelcome.length/$scope.pageSize);                
