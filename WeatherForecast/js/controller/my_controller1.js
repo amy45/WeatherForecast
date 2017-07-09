@@ -8,7 +8,7 @@ define(function () {
     	   
     	    $scope.formatNumber = function(i) {
     	    	var temp=(( i - 273.15) * 9/5) + 32
-    	    	
+    	    	console.log("test";)
     	    	return Math.round(temp * 100)/100; 
     	    }
     	
