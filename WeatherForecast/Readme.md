@@ -9,3 +9,5 @@
   7. Install the CORS filter extension on chrome.
   8. All good to run application.
   
+---------------------------------------------
+2 fix
