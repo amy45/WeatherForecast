@@ -20,7 +20,7 @@ define(function () {
     	      //  alert($scope.myWelcome);
     	    });
 
-    	 $scope.numberOfPages=function(){
+    	 $scope.numberOfPages=function(int fix2){
     	        return Math.ceil($scope.myWelcome.length/$scope.pageSize);                
     	    }
     	
