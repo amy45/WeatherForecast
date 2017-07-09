@@ -6,7 +6,8 @@ define(['angular'], function() {
         'myApp.filters',
         'myApp.services',
         'myApp.directives',
-        'myApp.controllers'
+        'myApp.controllers',
+        'fix/test1'
     ]);
 });
 //test1fix
